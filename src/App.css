@@ -1,0 +1,74 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.center{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.boxlist{
+  list-style: 'none';
+  margin: 0;
+              padding: 0;
+              left: 26%;
+              position: absolute;
+             width: 48%;
+              border: 1px solid #ccc;
+              background: white;
+              z-index: 1000;
+              text-align: left;
+              max-height: 300px;
+              overflow: auto;
+}
+.btn-cln{
+      position: absolute;
+      top: -10px;
+      right: 1px;
+      background: red;
+      color: rgb(254, 254, 254);
+      border: none;
+      border-radius: 50%;
+      width: 20px;
+      height: 20px;
+      font-size: 14px;
+      line-height: 20px;
+      cursor: pointer;
+
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+
+
+.read-the-docs {
+  color: #888;
+}
