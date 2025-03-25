@@ -1,7 +1,7 @@
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import ComboBox from './Combobox'
+import ComboBox from './ComBoBox'
 
 function App() {
   return (
